@@ -1,0 +1,19 @@
+/* src/app/cursos/proyecto.module.css */
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem; 
+    border:1px solid red
+  
+  }
+  
+  .card {
+    background-color: rgba(231, 231, 231, 0.9); 
+    border-radius: 1rem;
+    padding: 1rem;
+    width: 200px; 
+    box-shadow: 0 4px 8px rgba(223, 216, 216, 0.863); 
+    text-align: center;
+  }
+  

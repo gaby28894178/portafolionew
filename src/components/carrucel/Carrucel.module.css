@@ -1,0 +1,81 @@
+/* .conten_img{
+    width: auto;
+    padding: 0.8em;
+    width: 18em;
+    max-width: 100%;
+    height: 19.8em; 
+    object-fit:contain ;
+    transition: transform 0.5s ease-in-out;
+    margin-top: 1.5em;
+    border-radius: 12px;
+    border: 1px solid rgb(235, 213, 213);
+    &{
+        border-radius: 1px solid red;
+    }
+} */
+.tex{
+    text-align: center;
+    margin-top: 0.5em;
+}
+
+
+.img_carrucel{
+    background-color: rgb(49, 45, 45);
+    border: 1px solid rgb(224, 8, 8);
+    border-radius: 5px;
+    height: 18em;
+    width: 20em;
+    max-width: 95%;
+    object-fit:contain ;
+    transition: transform 0.5s ease-in-out; 
+    margin-top: 0.9rem;
+    padding: 6px 0;
+    
+}
+.img{
+        border: 1px solid red;
+
+    }
+
+/* .card {
+    background-color: rgb(235, 90, 90); 
+    margin: 1em; 
+    padding: 1em; 
+    border-radius: 8px;
+    width: calc(25% - 2em);  
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+
+  } */
+
+
+.contenedorBoton{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+  .nexbtn{
+    background-color: rgba(6, 108, 241, 0.699);
+    border: 2px solid rgb(243, 243, 239);
+    border-radius: 32px;
+    margin: 0.9rem;
+    padding: 0.3em;
+    font-size: 15px;
+    color:aliceblue;
+    margin-left: 14.1em;
+    
+}
+.prevbtn{
+    background-color: rgba(6, 108, 241, 0.699);
+    border: 2px solid rgb(243, 243, 239);
+    border-radius: 42px;
+    margin: 0.9rem;
+    padding: 0.3em;
+    font-size: 15px;
+    color:aliceblue;
+    
+}
+.bx {
+    height: 45px; /* Ajustado a 30px */
+    width: 45px; /* Puedes agregar esta propiedad para controlar el ancho también */
+}
